@@ -27,7 +27,7 @@ Waiting for you to contribute more thoughts...
 
 ### Usage
 
-- download the latest release (you can put it in `/bin`)
+- download (`https://git.io/Jk0B8`) the latest release (you can put it in `/bin`)
 
 - set permission `chmod +x az-ops`
 
