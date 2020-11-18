@@ -36,9 +36,6 @@ Waiting for you to contribute more thoughts...
 ### Extra Information
 There is nothing important here, just want say feel free to help me improve my code and let make this little program better!
 
-### Some Screenshots
+### Showcase
 
-![image-20201117171410509](README.assets/image-20201117171410509.png)
-
-![image-20201117171441239](README.assets/image-20201117171441239.png)
-
+[![asciicast](https://asciinema.org/a/nafHdPRe8GDH6XCWCeu8OAK4y.svg)](https://asciinema.org/a/nafHdPRe8GDH6XCWCeu8OAK4y)
