@@ -1,0 +1,24 @@
+[base]
+name=CentOS-$releasever - Base
+baseurl=http://mirrors.xtom.com.hk/centos/$releasever/os/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+ 
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=http://mirrors.xtom.com.hk/centos/$releasever/updates/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+ 
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=http://mirrors.xtom.com.hk/centos/$releasever/extras/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+ 
+[centosplus]
+name=CentOS-$releasever - Plus
+baseurl=http://mirrors.xtom.com.hk/centos/$releasever/centosplus/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7

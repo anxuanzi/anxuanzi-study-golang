@@ -1,0 +1,34 @@
+[BaseOS]
+name=CentOS-$releasever - Base
+baseurl=https://mirrors.xtom.com.hk/centos/$releasever/BaseOS/$basearch/os/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+
+[AppStream]
+name=CentOS-$releasever - AppStream
+baseurl=https://mirrors.xtom.com.hk/centos/$releasever/AppStream/$basearch/os/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+
+[PowerTools]
+name=CentOS-$releasever - PowerTools
+baseurl=https://mirrors.xtom.com.hk/centos/$releasever/PowerTools/$basearch/os/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=https://mirrors.xtom.com.hk/centos/$releasever/extras/$basearch/os/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+
+[centosplus]
+name=CentOS-$releasever - Plus
+baseurl=https://mirrors.xtom.com.hk/centos/$releasever/centosplus/$basearch/os/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
