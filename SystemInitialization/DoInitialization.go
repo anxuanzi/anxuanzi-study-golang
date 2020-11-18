@@ -326,11 +326,12 @@ func netCfg() {
 func installApps() {
 	pterm.DefaultSection.Println("Installing Common Software")
 	if configurations.Software != nil {
-		apps := strings.Join(configurations.Software, " ")
-		if configurations.CentosVersion == 7 {
-			Utils.ExecSimpleCmdStreaming("yum", "install", apps, "-y")
-		} else {
-			Utils.ExecSimpleCmdStreaming("dnf", "install", apps, "-y")
+		for _, v := range configurations.Software {
+			if configurations.CentosVersion == 7 {
+				Utils.ExecSimpleCmdStreaming("yum", "install", v, "-y")
+			} else {
+				Utils.ExecSimpleCmdStreaming("dnf", "install", v, "-y")
+			}
 		}
 		pterm.Success.Println("Installing Common Software")
 	} else {
