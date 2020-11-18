@@ -1,5 +1,7 @@
 # AZ-OPS
 
+![Go](https://github.com/anxuanzi/az-ops/workflows/Go/badge.svg)
+
 ### Overview
 Automated operation and maintenance script collection, can do things automatically without out typing command by yourself. Only support Centos7/Centos8. This program is designed for me to operate my servers (VMs) more efficiently. This project is also my first open-source project written with Golang (I'm still studying it!).
 
