@@ -36,4 +36,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: az-ops-linux64
-        path: ./release/az-ops
+        path: release/
